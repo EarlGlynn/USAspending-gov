@@ -1,0 +1,118 @@
+[1] "Contracts"
+[1] "2000_All_Contracts_Full_20130715.csv"
+[1] "2001_All_Contracts_Full_20130715.csv"
+[1] "2002_All_Contracts_Full_20130715.csv"
+[1] "2003_All_Contracts_Full_20130715.csv"
+[1] "2004_All_Contracts_Full_20130715.csv"
+[1] "2005_All_Contracts_Full_20130715.csv"
+[1] "2006_All_Contracts_Full_20130715.csv"
+[1] "2007_All_Contracts_Full_20130715.csv"
+[1] "2008_All_Contracts_Full_20130715.csv"
+[1] "2009_All_Contracts_Full_20130715.csv"
+[1] "2010_All_Contracts_Full_20130715.csv"
+[1] "2011_All_Contracts_Full_20130715.csv"
+[1] "2012_All_Contracts_Full_20130715.csv"
+[1] "2013_All_Contracts_Full_20130715.csv"
+[1] "DirectPayments"
+[1] "2000_All_DirectPayments_Full_20130715.csv"
+[1] "2001_All_DirectPayments_Full_20130715.csv"
+[1] "2002_All_DirectPayments_Full_20130715.csv"
+[1] "2003_All_DirectPayments_Full_20130715.csv"
+[1] "2004_All_DirectPayments_Full_20130715.csv"
+[1] "2005_All_DirectPayments_Full_20130715.csv"
+[1] "2006_All_DirectPayments_Full_20130715.csv"
+[1] "2007_All_DirectPayments_Full_20130715.csv"
+[1] "2008_All_DirectPayments_Full_20130715.csv"
+[1] "2009_All_DirectPayments_Full_20130715.csv"
+[1] "2010_All_DirectPayments_Full_20130715.csv"
+[1] "2011_All_DirectPayments_Full_20130715.csv"
+[1] "2012_All_DirectPayments_Full_20130715.csv"
+[1] "2013_All_DirectPayments_Full_20130715.csv"
+[1] "Grants"
+[1] "2000_All_Grants_Full_20130715.csv"
+[1] "2001_All_Grants_Full_20130715.csv"
+[1] "2002_All_Grants_Full_20130715.csv"
+[1] "2003_All_Grants_Full_20130715.csv"
+[1] "2004_All_Grants_Full_20130715.csv"
+[1] "2005_All_Grants_Full_20130715.csv"
+[1] "2006_All_Grants_Full_20130715.csv"
+[1] "2007_All_Grants_Full_20130715.csv"
+[1] "2008_All_Grants_Full_20130715.csv"
+[1] "2009_All_Grants_Full_20130715.csv"
+[1] "2010_All_Grants_Full_20130715.csv"
+[1] "2011_All_Grants_Full_20130715.csv"
+[1] "2012_All_Grants_Full_20130715.csv"
+[1] "2013_All_Grants_Full_20130715.csv"
+[1] "Insurance"
+[1] "2000_All_Insurance_Full_20130715.csv"
+[1] "2001_All_Insurance_Full_20130715.csv"
+[1] "2002_All_Insurance_Full_20130715.csv"
+[1] "2003_All_Insurance_Full_20130715.csv"
+[1] "2004_All_Insurance_Full_20130715.csv"
+[1] "2005_All_Insurance_Full_20130715.csv"
+[1] "2006_All_Insurance_Full_20130715.csv"
+[1] "2007_All_Insurance_Full_20130715.csv"
+[1] "2008_All_Insurance_Full_20130715.csv"
+[1] "2009_All_Insurance_Full_20130715.csv"
+[1] "2010_All_Insurance_Full_20130715.csv"
+[1] "2011_All_Insurance_Full_20130715.csv"
+[1] "2012_All_Insurance_Full_20130715.csv"
+[1] "2013_All_Insurance_Full_20130715.csv"
+[1] "Loans"
+[1] "2001_All_Loans_Full_20130715.csv"
+[1] "2007_All_Loans_Full_20130715.csv"
+[1] "2008_All_Loans_Full_20130715.csv"
+[1] "2009_All_Loans_Full_20130715.csv"
+[1] "2010_All_Loans_Full_20130715.csv"
+[1] "2011_All_Loans_Full_20130715.csv"
+[1] "2012_All_Loans_Full_20130715.csv"
+[1] "2013_All_Loans_Full_20130715.csv"
+[1] "Others"
+[1] "2000_All_Others_Full_20130715.csv"
+[1] "2001_All_Others_Full_20130715.csv"
+[1] "2002_All_Others_Full_20130715.csv"
+[1] "2003_All_Others_Full_20130715.csv"
+[1] "2004_All_Others_Full_20130715.csv"
+[1] "2005_All_Others_Full_20130715.csv"
+[1] "2006_All_Others_Full_20130715.csv"
+[1] "2007_All_Others_Full_20130715.csv"
+[1] "2008_All_Others_Full_20130715.csv"
+[1] "2009_All_Others_Full_20130715.csv"
+[1] "2010_All_Others_Full_20130715.csv"
+[1] "2011_All_Others_Full_20130715.csv"
+[1] "2012_All_Others_Full_20130715.csv"
+[1] "2013_All_Others_Full_20130715.csv"
+[1] "RECORDS"
+      Contracts DirectPayments  Grants Insurance   Loans Others
+2000     594426         486313  552428     20359       0    729
+2001     641840         573818  549379     16833       1    295
+2002     830363         532286  591117     15325       0   2593
+2003    1183512         588868  714729     14734       0   1359
+2004    2001477         578146  746136     14895       0    724
+2005    2921547         493433  708042     14456       0   1609
+2006    3795297         658747  482618     14516       0    161
+2007    4110093         292416  379059     11109  230050   3024
+2008    4501806        1050641  394974     12095  220508   5025
+2009    3491122        1542020  579687     18512  416614   3835
+2010    3531586        2902484  651679     21724  970530  17785
+2011    3381808        2505691  539568     84007 1255491  45206
+2012    3092747        2177933  511077     90862  323030  83858
+2013    1398174        1703244  338248     66144  188960  33224
+TOTAL  35475798       16086040 7738741    415571 3605184 199427
+[1] "FIELDS"
+     Contracts DirectPayments Grants Insurance Loans Others
+2000       213             55     55        55     0     55
+2001       213             55     55        55    55     55
+2002       213             55     55        55     0     55
+2003       213             55     55        55     0     55
+2004       213             55     55        55     0     55
+2005       213             55     55        55     0     55
+2006       213             55     55        55     0     55
+2007       213             55     55        55    55     55
+2008       213             55     55        55    55     55
+2009       213             55     55        55    55     55
+2010       213             55     55        55    55     55
+2011       213             55     55        55    55     55
+2012       213             55     55        55    55     55
+2013       213             55     55        55    55     55
+ 7883.4  secs

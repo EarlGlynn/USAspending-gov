@@ -1,0 +1,123 @@
+Inventory of USAspending.gov Data
+=================================
+
+Location of Archive Files
+-------------------------
+
+**Start here**:  http://www.usaspending.gov/data  
+**Select**: _Archives_ tab  
+
+I normally search for _All Agencies_ for a specific fiscal year (2000-2014) and spending type (Contracts, Direct Payments, Grants, Insurance, Loans, Other).
+
+Files are normally updated near the middle of the month.  While most additions and updates are for the most recent fiscal year, a number of changes are made to fiscal years sometimes back to the beginning of the archive.
+
+The Archives have complete files and incremental files with changes made during the last month.  The goal is to analyze the monthly incremental files, but for now I'm studying the "big picture" using the complete files captured every few months.
+
+In recent months, files from 2003 to 2014 have some updates every month.  As recently as July 2013, all files back to 2000 were updated.
+
+My original intent was to obtain 10 years of data to look a trends, but when I found the data archive only went back to 2000, I decided to grab and study all years of data.
+
+Scripts
+-------
+
+A pattern in the filenames makes writing a script to download the files fairly easy.
+
+Studying the filenames on the Archives tab reveals the pattern.  For example, the file with FY 2014 Contracts data is:
+
+    2014_All_Contracts_Full_20140316.csv.zip  
+
+The filename pattern can be deduced to be:
+
+    <fiscalyear>_All_<spendingtype>_Full_<releasedate>.csv.zip 
+
+with _fiscalyear_ ranging from 2000 to 2014, _spendingtype_ one of the six spending types, and _releasedate_ in the format YYYYMMDD, which is usually near the middle of the month.  
+
+Each of the downloads below have slightly different versions of these scripts. Look for comments like _##### m of n_ along the right margin of the R scripts to identify lines that possibly need to be changed with a new update.
+
+The scripts must often be restarted to get around a variety of problems in the data or with the Internet connection. The goal is to develop a script that is a defined and repeatable process for working with the data.
+
+**0-graball.R**  
+
+Downloading the current release of all files results in about 11 GB of .zip files that expand into about 72 GB of .csv raw data files. The complete files with changed records had a total of over 62 million records.
+
+The script records md5sums for all .zip and .csv files to determine easily if files have changed from the past.
+
+I run the script only during late evening or early morning hours when the server likely has extra capacity.  The download time for me is about 6 hours, but that time can vary considerably.
+
+**1-FedSpendingFirstLook.R**  
+
+The "first look" uses R's _count.fields_ function to verify that all records in a file have the same number of fields in each line.  The script writes two summary files showing the number of fields and number of records in each file.
+
+The script for the current release takes over 2 hours.
+
+The parsing check was added after encountering a number of problems in past downloads because of poor data quality.  The run from March 16 shows a possible problem in parsing the 2011 Loans data.  This has not yet been investigated. 
+
+
+16 March 2014 Download
+----------------------
+
+An R script can be used to download archive data for a specified set of years and spending types.  
+
+Data for 2003-2014
+
+```{r March2014}
+d1 <- read.csv("2014-03-16/FedSpending-RecordCounts.csv")
+names(d1)[1] <- "FiscalYear"
+```
+
+```{r xtable1, results="asis"}
+library(xtable)
+xd1 <- xtable(d1, digits=0)
+print(xd1, format.args=list(big.mark=","), type="html")
+```
+
+
+15 July 2013 Download
+---------------------
+
+Data for 2000-2013 -- the last time Fiscal Years 2000-2002 were updated. 
+
+```{r July2013}
+d2 <- read.csv("2013-07-15/FedSpending-RecordCounts.csv")
+names(d2)[1] <- "FiscalYear"
+```
+
+```{r xtable2, results="asis"}
+xd2 <- xtable(d2, digits=0)
+print(xd2, format.args=list(big.mark=","), type="html")
+```
+
+Change from July 2013 to March 2014
+-----------------------------------
+
+We need to modify both data.frames to have the same year rows:
+
+```{r Diffs}
+d1 <- d1[-nrow(d1),]
+d1 <- rbind(d2[1:3,], d1)
+
+d2 <- d2[-nrow(d2),]          # get rid of total row  
+d2[15,] <- c(2014, rep(0,6))  # add zeroes for 2014
+
+Diffs <- d1 - d2
+Diffs$FiscalYear <- d1$FiscalYear  
+```
+
+This table shows the changes in the number of records by fiscal year by type of spending from July 15, 2013 to March 16, 2014 in USAspending.gov:
+
+```{r xtable3, results="asis"}
+xDiffs <- xtable(Diffs, digits=0)
+print(xDiffs, format.args=list(big.mark=","), type="html")
+```
+
+Observations:  
+
+1. The number of records for all spending types has not changed for fiscal years 2000 to 2002 since July 2013.
+2. The reason for a net decrease in certain records is unclear, e.g., 22,642 fewer DirectPayments in FY 2012, or over 5000 fewer loans in FY 2011 and FY 2012.
+3. The reason for changes in past fiscal years more than a few years back is unclear.  There were hundreds of changes in contract records for FY 2003 to 2007, and with the exception of 2010, there were thousands of changes for FY 2008 to 2012 in contract counts.
+4. A chart of the changes by spending type by month might be interesting.
+5. It's unclear what changes will be happening in the next few months due to the [OMB mandate to improve data quality in USAspending.gov](http://www.whitehouse.gov/sites/default/files/omb/financial/memos/improving-data-quality-for-usaspending-gov.pdf). 
+
+WatchdogLabs.org Article
+------------------------
+[Inventory of USAspending.gov Data](http://watchdoglabs.org/), _WatchdogLabs.org_, March 23, 2014.

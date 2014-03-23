@@ -1,0 +1,164 @@
+2013_All_Contracts_Full_20130715.csv.zip
+2012_All_Contracts_Full_20130715.csv.zip
+2011_All_Contracts_Full_20130715.csv.zip
+2010_All_Contracts_Full_20130715.csv.zip
+2009_All_Contracts_Full_20130715.csv.zip
+2008_All_Contracts_Full_20130715.csv.zip
+2007_All_Contracts_Full_20130715.csv.zip
+2006_All_Contracts_Full_20130715.csv.zip
+2005_All_Contracts_Full_20130715.csv.zip
+2004_All_Contracts_Full_20130715.csv.zip
+2003_All_Contracts_Full_20130715.csv.zip
+2002_All_Contracts_Full_20130715.csv.zip
+2001_All_Contracts_Full_20130715.csv.zip
+2000_All_Contracts_Full_20130715.csv.zip
+2013_All_Grants_Full_20130715.csv.zip
+2012_All_Grants_Full_20130715.csv.zip
+2011_All_Grants_Full_20130715.csv.zip
+2010_All_Grants_Full_20130715.csv.zip
+2009_All_Grants_Full_20130715.csv.zip
+2008_All_Grants_Full_20130715.csv.zip
+2007_All_Grants_Full_20130715.csv.zip
+2006_All_Grants_Full_20130715.csv.zip
+2005_All_Grants_Full_20130715.csv.zip
+2004_All_Grants_Full_20130715.csv.zip
+2003_All_Grants_Full_20130715.csv.zip
+2002_All_Grants_Full_20130715.csv.zip
+2001_All_Grants_Full_20130715.csv.zip
+2000_All_Grants_Full_20130715.csv.zip
+2013_All_Loans_Full_20130715.csv.zip
+2012_All_Loans_Full_20130715.csv.zip
+2011_All_Loans_Full_20130715.csv.zip
+2010_All_Loans_Full_20130715.csv.zip
+2009_All_Loans_Full_20130715.csv.zip
+2008_All_Loans_Full_20130715.csv.zip
+2007_All_Loans_Full_20130715.csv.zip
+2006_All_Loans_Full_20130715.csv.zip
+2005_All_Loans_Full_20130715.csv.zip
+2004_All_Loans_Full_20130715.csv.zip
+2003_All_Loans_Full_20130715.csv.zip
+2002_All_Loans_Full_20130715.csv.zip
+2001_All_Loans_Full_20130715.csv.zip
+2000_All_Loans_Full_20130715.csv.zip
+2013_All_DirectPayments_Full_20130715.csv.zip
+2012_All_DirectPayments_Full_20130715.csv.zip
+2011_All_DirectPayments_Full_20130715.csv.zip
+2010_All_DirectPayments_Full_20130715.csv.zip
+2009_All_DirectPayments_Full_20130715.csv.zip
+2008_All_DirectPayments_Full_20130715.csv.zip
+2007_All_DirectPayments_Full_20130715.csv.zip
+2006_All_DirectPayments_Full_20130715.csv.zip
+2005_All_DirectPayments_Full_20130715.csv.zip
+2004_All_DirectPayments_Full_20130715.csv.zip
+2003_All_DirectPayments_Full_20130715.csv.zip
+2002_All_DirectPayments_Full_20130715.csv.zip
+2001_All_DirectPayments_Full_20130715.csv.zip
+2000_All_DirectPayments_Full_20130715.csv.zip
+2013_All_Insurance_Full_20130715.csv.zip
+2012_All_Insurance_Full_20130715.csv.zip
+2011_All_Insurance_Full_20130715.csv.zip
+2010_All_Insurance_Full_20130715.csv.zip
+2009_All_Insurance_Full_20130715.csv.zip
+2008_All_Insurance_Full_20130715.csv.zip
+2007_All_Insurance_Full_20130715.csv.zip
+2006_All_Insurance_Full_20130715.csv.zip
+2005_All_Insurance_Full_20130715.csv.zip
+2004_All_Insurance_Full_20130715.csv.zip
+2003_All_Insurance_Full_20130715.csv.zip
+2002_All_Insurance_Full_20130715.csv.zip
+2001_All_Insurance_Full_20130715.csv.zip
+2000_All_Insurance_Full_20130715.csv.zip
+2013_All_Others_Full_20130715.csv.zip
+2012_All_Others_Full_20130715.csv.zip
+2011_All_Others_Full_20130715.csv.zip
+2010_All_Others_Full_20130715.csv.zip
+2009_All_Others_Full_20130715.csv.zip
+2008_All_Others_Full_20130715.csv.zip
+2007_All_Others_Full_20130715.csv.zip
+2006_All_Others_Full_20130715.csv.zip
+2005_All_Others_Full_20130715.csv.zip
+2004_All_Others_Full_20130715.csv.zip
+2003_All_Others_Full_20130715.csv.zip
+2002_All_Others_Full_20130715.csv.zip
+2001_All_Others_Full_20130715.csv.zip
+2000_All_Others_Full_20130715.csv.zip
+. . .
+ [1] "2013-07-15/datafeeds/2000_All_Contracts_Full_20130715.csv"
+ [2] "2013-07-15/datafeeds/2000_All_DirectPayments_Full_20130715.csv"
+ [3] "2013-07-15/datafeeds/2000_All_Grants_Full_20130715.csv"
+ [4] "2013-07-15/datafeeds/2000_All_Insurance_Full_20130715.csv"
+ [5] "2013-07-15/datafeeds/2000_All_Others_Full_20130715.csv"
+ [6] "2013-07-15/datafeeds/2001_All_Contracts_Full_20130715.csv"
+ [7] "2013-07-15/datafeeds/2001_All_DirectPayments_Full_20130715.csv"
+ [8] "2013-07-15/datafeeds/2001_All_Grants_Full_20130715.csv"
+ [9] "2013-07-15/datafeeds/2001_All_Insurance_Full_20130715.csv"
+[10] "2013-07-15/datafeeds/2001_All_Loans_Full_20130715.csv"
+[11] "2013-07-15/datafeeds/2001_All_Others_Full_20130715.csv"
+[12] "2013-07-15/datafeeds/2002_All_Contracts_Full_20130715.csv"
+[13] "2013-07-15/datafeeds/2002_All_DirectPayments_Full_20130715.csv"
+[14] "2013-07-15/datafeeds/2002_All_Grants_Full_20130715.csv"
+[15] "2013-07-15/datafeeds/2002_All_Insurance_Full_20130715.csv"
+[16] "2013-07-15/datafeeds/2002_All_Others_Full_20130715.csv"
+[17] "2013-07-15/datafeeds/2003_All_Contracts_Full_20130715.csv"
+[18] "2013-07-15/datafeeds/2003_All_DirectPayments_Full_20130715.csv"
+[19] "2013-07-15/datafeeds/2003_All_Grants_Full_20130715.csv"
+[20] "2013-07-15/datafeeds/2003_All_Insurance_Full_20130715.csv"
+[21] "2013-07-15/datafeeds/2003_All_Others_Full_20130715.csv"
+[22] "2013-07-15/datafeeds/2004_All_Contracts_Full_20130715.csv"
+[23] "2013-07-15/datafeeds/2004_All_DirectPayments_Full_20130715.csv"
+[24] "2013-07-15/datafeeds/2004_All_Grants_Full_20130715.csv"
+[25] "2013-07-15/datafeeds/2004_All_Insurance_Full_20130715.csv"
+[26] "2013-07-15/datafeeds/2004_All_Others_Full_20130715.csv"
+[27] "2013-07-15/datafeeds/2005_All_Contracts_Full_20130715.csv"
+[28] "2013-07-15/datafeeds/2005_All_DirectPayments_Full_20130715.csv"
+[29] "2013-07-15/datafeeds/2005_All_Grants_Full_20130715.csv"
+[30] "2013-07-15/datafeeds/2005_All_Insurance_Full_20130715.csv"
+[31] "2013-07-15/datafeeds/2005_All_Others_Full_20130715.csv"
+[32] "2013-07-15/datafeeds/2006_All_Contracts_Full_20130715.csv"
+[33] "2013-07-15/datafeeds/2006_All_DirectPayments_Full_20130715.csv"
+[34] "2013-07-15/datafeeds/2006_All_Grants_Full_20130715.csv"
+[35] "2013-07-15/datafeeds/2006_All_Insurance_Full_20130715.csv"
+[36] "2013-07-15/datafeeds/2006_All_Others_Full_20130715.csv"
+[37] "2013-07-15/datafeeds/2007_All_Contracts_Full_20130715.csv"
+[38] "2013-07-15/datafeeds/2007_All_DirectPayments_Full_20130715.csv"
+[39] "2013-07-15/datafeeds/2007_All_Grants_Full_20130715.csv"
+[40] "2013-07-15/datafeeds/2007_All_Insurance_Full_20130715.csv"
+[41] "2013-07-15/datafeeds/2007_All_Loans_Full_20130715.csv"
+[42] "2013-07-15/datafeeds/2007_All_Others_Full_20130715.csv"
+[43] "2013-07-15/datafeeds/2008_All_Contracts_Full_20130715.csv"
+[44] "2013-07-15/datafeeds/2008_All_DirectPayments_Full_20130715.csv"
+[45] "2013-07-15/datafeeds/2008_All_Grants_Full_20130715.csv"
+[46] "2013-07-15/datafeeds/2008_All_Insurance_Full_20130715.csv"
+[47] "2013-07-15/datafeeds/2008_All_Loans_Full_20130715.csv"
+[48] "2013-07-15/datafeeds/2008_All_Others_Full_20130715.csv"
+[49] "2013-07-15/datafeeds/2009_All_Contracts_Full_20130715.csv"
+[50] "2013-07-15/datafeeds/2009_All_DirectPayments_Full_20130715.csv"
+[51] "2013-07-15/datafeeds/2009_All_Grants_Full_20130715.csv"
+[52] "2013-07-15/datafeeds/2009_All_Insurance_Full_20130715.csv"
+[53] "2013-07-15/datafeeds/2009_All_Loans_Full_20130715.csv"
+[54] "2013-07-15/datafeeds/2009_All_Others_Full_20130715.csv"
+[55] "2013-07-15/datafeeds/2010_All_Contracts_Full_20130715.csv"
+[56] "2013-07-15/datafeeds/2010_All_DirectPayments_Full_20130715.csv"
+[57] "2013-07-15/datafeeds/2010_All_Grants_Full_20130715.csv"
+[58] "2013-07-15/datafeeds/2010_All_Insurance_Full_20130715.csv"
+[59] "2013-07-15/datafeeds/2010_All_Loans_Full_20130715.csv"
+[60] "2013-07-15/datafeeds/2010_All_Others_Full_20130715.csv"
+[61] "2013-07-15/datafeeds/2011_All_Contracts_Full_20130715.csv"
+[62] "2013-07-15/datafeeds/2011_All_DirectPayments_Full_20130715.csv"
+[63] "2013-07-15/datafeeds/2011_All_Grants_Full_20130715.csv"
+[64] "2013-07-15/datafeeds/2011_All_Insurance_Full_20130715.csv"
+[65] "2013-07-15/datafeeds/2011_All_Loans_Full_20130715.csv"
+[66] "2013-07-15/datafeeds/2011_All_Others_Full_20130715.csv"
+[67] "2013-07-15/datafeeds/2012_All_Contracts_Full_20130715.csv"
+[68] "2013-07-15/datafeeds/2012_All_DirectPayments_Full_20130715.csv"
+[69] "2013-07-15/datafeeds/2012_All_Grants_Full_20130715.csv"
+[70] "2013-07-15/datafeeds/2012_All_Insurance_Full_20130715.csv"
+[71] "2013-07-15/datafeeds/2012_All_Loans_Full_20130715.csv"
+[72] "2013-07-15/datafeeds/2012_All_Others_Full_20130715.csv"
+[73] "2013-07-15/datafeeds/2013_All_Contracts_Full_20130715.csv"
+[74] "2013-07-15/datafeeds/2013_All_DirectPayments_Full_20130715.csv"
+[75] "2013-07-15/datafeeds/2013_All_Grants_Full_20130715.csv"
+[76] "2013-07-15/datafeeds/2013_All_Insurance_Full_20130715.csv"
+[77] "2013-07-15/datafeeds/2013_All_Loans_Full_20130715.csv"
+[78] "2013-07-15/datafeeds/2013_All_Others_Full_20130715.csv"
+ 21077.8  secs
